@@ -13,6 +13,12 @@
 </picture>
 <br>
 
-**tg: @ijyki**
+<a href="https://t.me/ijyki">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tg-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/tg-light.svg" />
+    <img alt="Telegram: @ijyki" src="assets/tg-light.svg" />
+  </picture>
+</a>
 
 </div>

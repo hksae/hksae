@@ -170,7 +170,7 @@ function render(langs, theme) {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${height}" viewBox="0 0 ${WIDTH} ${height}" fill="none" role="img" aria-label="Most used languages">
   <title>Most used languages</title>
-  <text x="0" y="${12 + TOP_PAD}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.4" fill="${t.kicker}">MOST USED LANGUAGES</text>
+  <text x="0" y="${12 + TOP_PAD}" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1.1" fill="${t.kicker}">MOST USED LANGUAGES</text>
   <rect x="0" y="${24 + TOP_PAD}" width="${WIDTH}" height="3" rx="1.5" fill="${t.track}"/>
   ${segments}
   <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">${legend}</g>
