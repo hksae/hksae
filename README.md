@@ -1,8 +1,15 @@
 <div align="center">
 
-# Hi <img src="nyan-cat-cat.gif" width="20">
-
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hi-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hi-light.svg" />
+  <img alt="Hi" src="assets/hi-light.svg" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/nyan-dark.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/nyan-light.gif" />
+  <img alt="" src="assets/nyan-light.gif" width="20" />
+</picture>
 
 <br>
 
